@@ -1,5 +1,5 @@
-let saveEl = document.getElementById("save-el");
-let countEl = document.getElementById("count-el");
+let saveEl = document.querySelector(".save-el");
+let countEl = document.querySelector(".count-el");
 let count = 0;
 
 function increment() {
@@ -14,5 +14,5 @@ function save() {
   count = 0;
 }
 
-event.preventDefault()
+
 

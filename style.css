@@ -34,7 +34,7 @@ body{
     font-size: 50px;
 }
 
-#count-el {
+.count-el {
     font-size: 70px;
 }
 
@@ -49,17 +49,17 @@ button {
     border-radius: 5px; 
 }
 
-#increment-btn {
+.increment-btn {
     background: darkred;
     font-size: 20px;
 }
 
-#save-btn {
+.save-btn {
     background: darkgreen;
     font-size: 20px;
 
 }
-#save-el{
+.save-el{
     font-size: 30px;
     font-weight: bold;
 }

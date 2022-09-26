@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/station.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+ 
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content:space-between;
+    padding: 60px;
+    align-items: center;
+    border: 3px solid palevioletred;
+    border-radius: 20px;
+    background: white;
+    max-width: 50%;
+}
+
+.counter-title {
+    font-size: 50px;
+}
+
+.count-el {
+    font-size: 70px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px; 
+}
+
+.increment-btn {
+    background: darkred;
+    font-size: 20px;
+}
+
+.save-btn {
+    background: darkgreen;
+    font-size: 20px;
+
+}
+.save-el{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
